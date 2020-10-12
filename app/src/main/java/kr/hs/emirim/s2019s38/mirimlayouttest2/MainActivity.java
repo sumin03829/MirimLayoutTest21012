@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
         btn.setBackgroundColor(Color.YELLOW);
         linear1.addView(btn);
 
+        TextView textv2=new TextView(this);
+        textv2.setText("IT Cookbook. Android");
+        textv2.setTextColor(Color.RED);
+        linear1.addView(textv2);
+
 
         setContentView(linear1,params);
 //        setContentView(R.layout.activity_main);
